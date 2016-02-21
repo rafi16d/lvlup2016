@@ -95,7 +95,6 @@ public class Core : MonoBehaviour {
 
         isCorrupted = true;
 
-        Debug.Log(id);
 
         collRd2d.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
         popup.SetActive(false);
