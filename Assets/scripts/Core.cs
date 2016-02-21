@@ -101,11 +101,11 @@ public class Core : MonoBehaviour {
         popup.SetActive(false);
         password.text = "";
         Core.upgradeState();
-        /*
-                if (Core.getState() == 1) {
-                    popupAvast.SetActive(true);
 
-                }*/
+        if (Core.getState() == 1) {
+            popupAvast.SetActive(true);
+        }
+
 
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = this.coreDestruction;
