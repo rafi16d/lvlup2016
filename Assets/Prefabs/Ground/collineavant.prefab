@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &128970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 478392}
+  - 212: {fileID: 21207878}
+  - 114: {fileID: 11401654}
+  m_Layer: 0
+  m_Name: collineavant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &478392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.35, y: -11.13, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11401654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HappyImage: {fileID: 21300000, guid: b629ce9529b93c042b790496f74010c2, type: 3}
+  DarkImage:
+  - {fileID: 21300000, guid: 80dd05ab0daaf8c439b5769545bed67f, type: 3}
+  - {fileID: 21300000, guid: c486000395248ba4fbcb943f455d2fc9, type: 3}
+  MissingImage:
+  - {fileID: 21300000, guid: 1ab5cba3102f62548928a26fe8e9a8a0, type: 3}
+  - {fileID: 21300000, guid: a226939f63a76584baf498616556a303, type: 3}
+--- !u!212 &21207878
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128970}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b629ce9529b93c042b790496f74010c2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: DarkImage.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MissingImage.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: HappyImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b629ce9529b93c042b790496f74010c2,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: DarkImage.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 80dd05ab0daaf8c439b5769545bed67f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: DarkImage.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c486000395248ba4fbcb943f455d2fc9,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: MissingImage.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1ab5cba3102f62548928a26fe8e9a8a0,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: MissingImage.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: a226939f63a76584baf498616556a303,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 128970}
+  m_IsPrefabParent: 1

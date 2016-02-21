@@ -1,0 +1,83 @@
+
+SWAT.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bouclier
+  rotate: true
+  xy: 2, 172
+  size: 68, 320
+  orig: 68, 320
+  offset: 0, 0
+  index: -1
+bras
+  rotate: false
+  xy: 324, 159
+  size: 140, 81
+  orig: 140, 81
+  offset: 0, 0
+  index: -1
+casque
+  rotate: false
+  xy: 2, 2
+  size: 161, 168
+  orig: 161, 168
+  offset: 0, 0
+  index: -1
+epaule
+  rotate: false
+  xy: 466, 146
+  size: 122, 94
+  orig: 122, 94
+  offset: 0, 0
+  index: -1
+jambearriere
+  rotate: false
+  xy: 694, 147
+  size: 89, 93
+  orig: 89, 93
+  offset: 0, 0
+  index: -1
+jambeavant
+  rotate: true
+  xy: 590, 144
+  size: 96, 102
+  orig: 96, 102
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 459, 70
+  size: 68, 74
+  orig: 68, 74
+  offset: 0, 0
+  index: -1
+piedarriere
+  rotate: false
+  xy: 900, 184
+  size: 109, 56
+  orig: 109, 56
+  offset: 0, 0
+  index: -1
+piedavant
+  rotate: false
+  xy: 785, 181
+  size: 113, 59
+  orig: 113, 59
+  offset: 0, 0
+  index: -1
+tete
+  rotate: false
+  xy: 319, 38
+  size: 138, 119
+  orig: 138, 119
+  offset: 0, 0
+  index: -1
+torse
+  rotate: false
+  xy: 165, 47
+  size: 152, 123
+  orig: 152, 123
+  offset: 0, 0
+  index: -1

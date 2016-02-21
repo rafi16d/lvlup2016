@@ -1,0 +1,118 @@
+
+Cheval.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backfoot
+  rotate: false
+  xy: 419, 134
+  size: 84, 56
+  orig: 84, 56
+  offset: 0, 0
+  index: -1
+backleg1
+  rotate: false
+  xy: 419, 192
+  size: 83, 62
+  orig: 83, 62
+  offset: 0, 0
+  index: -1
+backleg2
+  rotate: true
+  xy: 271, 82
+  size: 69, 60
+  orig: 69, 60
+  offset: 0, 0
+  index: -1
+backwheel1
+  rotate: false
+  xy: 400, 103
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+backwheel2
+  rotate: false
+  xy: 333, 63
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+butt
+  rotate: false
+  xy: 296, 164
+  size: 121, 90
+  orig: 121, 90
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 194, 67
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1
+frontfoot
+  rotate: false
+  xy: 151, 2
+  size: 77, 58
+  orig: 77, 58
+  offset: 0, 0
+  index: -1
+frontleg1
+  rotate: false
+  xy: 194, 87
+  size: 75, 64
+  orig: 75, 64
+  offset: 0, 0
+  index: -1
+frontleg2
+  rotate: false
+  xy: 333, 96
+  size: 65, 66
+  orig: 65, 66
+  offset: 0, 0
+  index: -1
+frontwheel1
+  rotate: false
+  xy: 434, 103
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+frontwheel2
+  rotate: false
+  xy: 368, 63
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 173, 153
+  size: 101, 121
+  orig: 101, 121
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 2, 18
+  size: 147, 126
+  orig: 147, 126
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 151, 62
+  size: 41, 82
+  orig: 41, 82
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 146
+  size: 169, 108
+  orig: 169, 108
+  offset: 0, 0
+  index: -1
