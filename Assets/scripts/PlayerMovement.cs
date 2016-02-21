@@ -112,7 +112,7 @@ public class PlayerMovement : MonoBehaviour {
         if (this.life == 0) {
             //GameOverScreen.SetActive(true);
             SceneManager.LoadScene("gameover");
-            Time.timeScale = 0f;
+            // Time.timeScale = 0f;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape)) {
@@ -150,10 +150,10 @@ public class PlayerMovement : MonoBehaviour {
             this.hasBeenYStopped = false;
 
         //is player under the least Y allowed ?
-        if (this.transform.position.y < this.limitLineYBottom)
+        if (this.transform.position.y < this.limitLineYBottom) {
             SceneManager.LoadScene("gameover");
-
-
+            Debug.Log("Falling");
+        }
 
         fixMovement();
 
