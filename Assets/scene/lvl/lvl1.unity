@@ -4981,7 +4981,7 @@ Transform:
   - {fileID: 1854633300}
   - {fileID: 1979964959}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &265996786 stripped
 Transform:
   m_PrefabParentObject: {fileID: 412550, guid: e05b8bc8e4742d4469cd14bb82cfff66, type: 2}
@@ -6531,19 +6531,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22494734, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -109
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 22494734, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 217
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 22494734, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 110
+      value: 151
       objectReference: {fileID: 0}
     - target: {fileID: 22494734, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 218
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 9586576, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
       propertyPath: m_ApplyRootMotion
@@ -16722,11 +16722,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22493874, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -97.5
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 22493874, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 114.25
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 22484320, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -16743,6 +16743,14 @@ Prefab:
     - target: {fileID: 22484320, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
       propertyPath: m_SizeDelta.x
       value: 859
+      objectReference: {fileID: 0}
+    - target: {fileID: 22493874, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 22493874, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9598510, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
@@ -28268,7 +28276,7 @@ Transform:
   - {fileID: 773662373}
   - {fileID: 1169327412}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!114 &1749892397
 MonoBehaviour:
   m_ObjectHideFlags: 0
