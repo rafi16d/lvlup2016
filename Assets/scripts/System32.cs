@@ -27,7 +27,8 @@ public class System32 : MonoBehaviour {
                 Application.Quit();
 
             //Load next lvl
-            // SceneManager.LoadScene(nextlvl);
+            if (isBlueScreen)
+                SceneManager.LoadScene(nextlvl);
         }
 
     }
@@ -38,7 +39,7 @@ public class System32 : MonoBehaviour {
             userinterface.SetActive(false);
             GameObject.Find("Player").SendMessage("stopSound");
             GameObject.Find("Player").SendMessage("sleepPlayer", Mathf.Infinity);
-            GameObject.Find("_Manager").SendMessage("upgradeMusic");
+            //GameObject.Find("_Manager").SendMessage("upgradeMusic");
             AudioSource audio = GetComponent<AudioSource>();
             audio.Play();
 
