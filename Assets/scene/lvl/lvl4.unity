@@ -15646,6 +15646,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &968944706 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 106940, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
+  m_PrefabInternal: {fileID: 968944705}
 --- !u!1001 &976704566
 Prefab:
   m_ObjectHideFlags: 0
@@ -21841,6 +21845,10 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 11447186, guid: a5b9ee6738dbcf642945214e9c2f8d70, type: 2}
+      propertyPath: pauseScreen
+      value: 
+      objectReference: {fileID: 968944706}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a5b9ee6738dbcf642945214e9c2f8d70, type: 2}
   m_IsPrefabParent: 0

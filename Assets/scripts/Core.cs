@@ -189,4 +189,8 @@ public class Core : MonoBehaviour {
     public static int getState() {
         return Core.countState;
     }
+
+    public static void resetState() {
+        Core.countState = 0;
+    }
 }
