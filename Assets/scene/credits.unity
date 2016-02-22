@@ -116,8 +116,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242, y: -26}
-  m_SizeDelta: {x: 419.6, y: 311}
+  m_AnchoredPosition: {x: 244, y: -40.75}
+  m_SizeDelta: {x: 424, y: 340.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98392141
 MonoBehaviour:
@@ -161,7 +161,10 @@ MonoBehaviour:
 
 
 
-    Developed in 45 hours in Fribourg !'
+    Developed in 45 hours in Fribourg !
+
+
+    By Flopy.ch Team'
 --- !u!222 &98392142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -381,7 +384,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 281, y: -61}
+  m_AnchoredPosition: {x: 337, y: -56}
   m_SizeDelta: {x: 320.4, y: 310}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500072695

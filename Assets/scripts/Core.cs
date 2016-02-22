@@ -95,17 +95,16 @@ public class Core : MonoBehaviour {
 
         isCorrupted = true;
 
-        Debug.Log(id);
 
         collRd2d.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
         popup.SetActive(false);
         password.text = "";
         Core.upgradeState();
-        /*
-                if (Core.getState() == 1) {
-                    popupAvast.SetActive(true);
 
-                }*/
+        if (Core.getState() == 1) {
+            popupAvast.SetActive(true);
+        }
+
 
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = this.coreDestruction;
@@ -189,5 +188,9 @@ public class Core : MonoBehaviour {
 
     public static int getState() {
         return Core.countState;
+    }
+
+    public static void resetState() {
+        Core.countState = 0;
     }
 }
