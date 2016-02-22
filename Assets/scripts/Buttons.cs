@@ -28,7 +28,7 @@ public class Buttons : MonoBehaviour {
 
     public void FirstLevelButton(string level) {
         if (btntoggle.isOn) {
-            SceneManager.LoadScene("intro");
+            SceneManager.LoadScene("lvl0");
         } else {
             SceneManager.LoadScene(level);
 

@@ -37,6 +37,7 @@ public class System32 : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D coll) {
         if (coll.gameObject.tag == "Player") {
             userinterface.SetActive(false);
+            Core.resetState();
             GameObject.Find("_Manager").SendMessage("stopMusic");
             GameObject.Find("Player").SendMessage("stopSound");
             GameObject.Find("Player").SendMessage("sleepPlayer", Mathf.Infinity);
