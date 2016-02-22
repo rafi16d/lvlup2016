@@ -107,7 +107,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -133,7 +133,9 @@ MonoBehaviour:
   rebootScreen: {fileID: 0}
   rebootText: {fileID: 0}
   userinterface: {fileID: 0}
+  isBlueScreen: 0
   blueScreen: {fileID: 0}
+  nextlvl: 
 --- !u!212 &21201578
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -170,7 +172,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 148092}

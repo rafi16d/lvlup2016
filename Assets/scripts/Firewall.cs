@@ -23,6 +23,7 @@ public class Firewall : MonoBehaviour {
     void Start() {
         this.bc2d = this.GetComponent<BoxCollider2D>();
         Firewall.setSprites(firewall1, firewall2, firewall3, firewall4, this.GetComponent<SpriteRenderer>(), this.bc2d);
+        currStateLevel = 1;
     }
 
     void Update() {

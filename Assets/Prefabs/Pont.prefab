@@ -159,6 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happyImage: {fileID: 21300000, guid: f3db309c9e5f0644ebb1231f52a7881b, type: 3}
   DarkImage:
   - {fileID: 21300000, guid: 9e9306cd19843c344baa55024b5ff319, type: 3}
   - {fileID: 21300000, guid: 9e9306cd19843c344baa55024b5ff319, type: 3}
@@ -178,6 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happyImage: {fileID: 21300000, guid: b9fc3ba251d9e9044a6d16eff3427beb, type: 3}
   DarkImage:
   - {fileID: 21300000, guid: f3337fe117d404a4b990f30256bbd15f, type: 3}
   - {fileID: 21300000, guid: f3337fe117d404a4b990f30256bbd15f, type: 3}
@@ -197,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happyImage: {fileID: 21300000, guid: df29779c26c45d4498e8f66f1bc7f769, type: 3}
   DarkImage:
   - {fileID: 21300000, guid: e8640a4d115983040b60d05f6859f47d, type: 3}
   - {fileID: 21300000, guid: e8640a4d115983040b60d05f6859f47d, type: 3}
@@ -337,6 +340,11 @@ Prefab:
       propertyPath: MissingImage.Array.data[1]
       value: 
       objectReference: {fileID: 21300000, guid: e8640a4d115983040b60d05f6859f47d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: happyImage
+      value: 
+      objectReference: {fileID: 21300000, guid: df29779c26c45d4498e8f66f1bc7f769,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
