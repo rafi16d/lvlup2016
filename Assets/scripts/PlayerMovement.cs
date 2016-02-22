@@ -152,7 +152,6 @@ public class PlayerMovement : MonoBehaviour {
         //is player under the least Y allowed ?
         if (this.transform.position.y < this.limitLineYBottom) {
             SceneManager.LoadScene("gameover");
-            Debug.Log("Falling");
         }
 
         fixMovement();

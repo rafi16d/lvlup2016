@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Environment : MonoBehaviour {
 
+    public Sprite happyImage;
     public Sprite[] DarkImage;
     public Sprite[] MissingImage;
     public bool forceMode = false;
@@ -24,7 +25,13 @@ public class Environment : MonoBehaviour {
         if (this.MissingImage.Length == 0 && !this.WorldManager)
             throw new System.Exception("0 missing image is not allowed.");
 
-        this.renderer = this.GetComponent<SpriteRenderer>();
+        if (!this.WorldManager) {
+            this.renderer = this.GetComponent<SpriteRenderer>();
+            this.renderer.sprite = this.happyImage;
+        }
+
+        if (this.WorldManager)
+            Core.resetState();
     }
 
     void Update() {
@@ -84,6 +91,10 @@ public class Environment : MonoBehaviour {
             this.timeImageChange = (float)Random.Range(0, 200) / 100;
         }
 
+    }
+
+    public static void globalStateReset() {
+        Environment.globalState = 0;
     }
 
 }

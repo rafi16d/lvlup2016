@@ -40,13 +40,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HappyImage: {fileID: 21300000, guid: b629ce9529b93c042b790496f74010c2, type: 3}
+  happyImage: {fileID: 21300000, guid: b629ce9529b93c042b790496f74010c2, type: 3}
   DarkImage:
   - {fileID: 21300000, guid: 80dd05ab0daaf8c439b5769545bed67f, type: 3}
   - {fileID: 21300000, guid: c486000395248ba4fbcb943f455d2fc9, type: 3}
   MissingImage:
   - {fileID: 21300000, guid: 1ab5cba3102f62548928a26fe8e9a8a0, type: 3}
   - {fileID: 21300000, guid: a226939f63a76584baf498616556a303, type: 3}
+  forceMode: 0
+  WorldManager: 0
 --- !u!212 &21207878
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -116,6 +118,11 @@ Prefab:
       propertyPath: MissingImage.Array.data[1]
       value: 
       objectReference: {fileID: 21300000, guid: a226939f63a76584baf498616556a303,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: happyImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b629ce9529b93c042b790496f74010c2,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
