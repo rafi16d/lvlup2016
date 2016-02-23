@@ -22,13 +22,14 @@ public class System32 : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate() {
         if (Input.anyKeyDown) {
+            if (isBlueScreen) {
+                if (Input.GetKey("escape"))
+                    SceneManager.LoadScene("MenuPrincipal");
 
-            if (Input.GetKey("escape"))
-                Application.Quit();
-
-            //Load next lvl
-            if (isBlueScreen)
-                SceneManager.LoadScene(nextlvl);
+                //Load next lvl
+                if (isBlueScreen)
+                    SceneManager.LoadScene(nextlvl);
+            }
         }
 
     }
