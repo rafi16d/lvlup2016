@@ -913,7 +913,7 @@ Transform:
   - {fileID: 662921513}
   - {fileID: 478560855}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1001 &46439462
 Prefab:
   m_ObjectHideFlags: 0
@@ -2132,7 +2132,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1001 &106332494
 Prefab:
   m_ObjectHideFlags: 0
@@ -4831,7 +4831,7 @@ Transform:
   - {fileID: 1854633300}
   - {fileID: 1979964959}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!4 &270658462 stripped
 Transform:
   m_PrefabParentObject: {fileID: 481002, guid: 8ffb55872f8dba944a60ff554332c4a1, type: 2}
@@ -4894,6 +4894,52 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 481002, guid: 8ffb55872f8dba944a60ff554332c4a1, type: 2}
   m_PrefabInternal: {fileID: 1162380386}
+--- !u!1001 &276852002
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -17.978666
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.8521988
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 109038, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &277376172
 Prefab:
   m_ObjectHideFlags: 0
@@ -5266,6 +5312,18 @@ Prefab:
     - target: {fileID: 418310, guid: 57cc20679d34f1842b1a02fb666e0f4d, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400644, guid: 57cc20679d34f1842b1a02fb666e0f4d, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400644, guid: 57cc20679d34f1842b1a02fb666e0f4d, type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400644, guid: 57cc20679d34f1842b1a02fb666e0f4d, type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57cc20679d34f1842b1a02fb666e0f4d, type: 2}
@@ -6344,6 +6402,18 @@ Prefab:
     - target: {fileID: 9586576, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493482, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493482, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493482, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac2163a8cd7b1084491f84ac43c55b16, type: 2}
@@ -9373,6 +9443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happyImage: {fileID: 0}
   DarkImage: []
   MissingImage: []
   forceMode: 0
@@ -9389,7 +9460,7 @@ Transform:
   m_Children:
   - {fileID: 524304759}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!114 &571895485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10571,6 +10642,30 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &639599018 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 109038, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
+  m_PrefabInternal: {fileID: 276852002}
+--- !u!114 &639599019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639599018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65f720729ed7444a9e7cfdad92a3073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxdistance: 3
+  player: {fileID: 1768119366}
+  titletuto: Ennemies
+  texttuto: "Les ennemies sont l\xE0 pour vous faire perdre de la vie (pr\xE9sente
+    dans la barre en haut). Vous pouvez les tuer en appuyant sur \"e\" ou sur le clic
+    de la souris."
+  tutovalue: {fileID: 975964038}
+  tutovaluetitle: {fileID: 80306255}
+  tutoscreen: {fileID: 1510156332}
 --- !u!4 &640729084 stripped
 Transform:
   m_PrefabParentObject: {fileID: 481002, guid: 8ffb55872f8dba944a60ff554332c4a1, type: 2}
@@ -11412,7 +11507,7 @@ Transform:
   - {fileID: 406295410}
   - {fileID: 1354154550}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!4 &735633444 stripped
 Transform:
   m_PrefabParentObject: {fileID: 412550, guid: e05b8bc8e4742d4469cd14bb82cfff66, type: 2}
@@ -12038,6 +12133,29 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e05b8bc8e4742d4469cd14bb82cfff66, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &793295686 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 146408, guid: 694d07c32df27f84d95105845c9eeb0c, type: 2}
+  m_PrefabInternal: {fileID: 2087339998}
+--- !u!114 &793295691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793295686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c03a159821d07478f85e66e8522d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxdistance3: 3
+  player3: {fileID: 1768119366}
+  titletuto3: Password Key
+  texttuto3: "Bravo ! Vous avez trouv\xE9 la premi\xE8re cl\xE9 ! Elle vous permettra
+    d'ouvrir le core file au num\xE9ro correspondant !"
+  tutovalue3: {fileID: 975964038}
+  tutovaluetitle3: {fileID: 80306255}
+  tutoscreen3: {fileID: 1510156332}
 --- !u!1001 &794829615
 Prefab:
   m_ObjectHideFlags: 0
@@ -12440,6 +12558,46 @@ Prefab:
     - target: {fileID: 22418536, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 175566, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22401374, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 22401374, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 657
+      objectReference: {fileID: 0}
+    - target: {fileID: 22401374, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 22401374, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1046
+      objectReference: {fileID: 0}
+    - target: {fileID: 174444, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432442, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432442, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 888
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432442, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 640
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432442, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.40002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3efb2c901d83749b1ae1d5a4d9342e, type: 2}
@@ -13213,6 +13371,18 @@ Prefab:
     - target: {fileID: 441870, guid: f24236d1f2789fe48a69e3ff34242ac1, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11446460, guid: f24236d1f2789fe48a69e3ff34242ac1, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11446460, guid: f24236d1f2789fe48a69e3ff34242ac1, type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 11446460, guid: f24236d1f2789fe48a69e3ff34242ac1, type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f24236d1f2789fe48a69e3ff34242ac1, type: 2}
@@ -14796,6 +14966,22 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextLevelButton
       objectReference: {fileID: 0}
+    - target: {fileID: 106940, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464954, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464954, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 892
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464954, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 817
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
   m_IsPrefabParent: 0
@@ -16117,6 +16303,18 @@ Prefab:
     - target: {fileID: 22493874, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
       propertyPath: m_SizeDelta.y
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 11466032, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11466032, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 11466032, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9598510, guid: 75f9b2a9871086842b294946150a1ff4, type: 2}
@@ -22980,20 +23178,20 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1470849938}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c65f720729ed7444a9e7cfdad92a3073, type: 3}
+  m_Script: {fileID: 11500000, guid: 301dd93ef9e708349ab29a45f634025d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxdistance: 3
-  player: {fileID: 1768119366}
-  titletuto: Core File
-  texttuto: "Lorsque vous d\xE9truisez un core file, une partie du jeu devient corrompu.
-    Pour finir le niveau il faudra d\xE9truire tous les core files. Attention, certain
-    core file sont prot\xE9g\xE9 par des mots de passe."
-  tutovalue: {fileID: 975964038}
-  tutovaluetitle: {fileID: 80306255}
-  tutoscreen: {fileID: 1510156332}
+  maxdistance2: 3
+  player2: {fileID: 1768119366}
+  titletuto2: Core File
+  texttuto2: "Votre premier core file ! En le d\xE9truisant vous allez corrompre un
+    peu le jeu ! Il y en a toujours 3. Attention, certain sont prot\xE9g\xE9 par mot
+    de passe."
+  tutovalue2: {fileID: 975964038}
+  tutovaluetitle2: {fileID: 80306255}
+  tutoscreen2: {fileID: 1510156332}
 --- !u!4 &1472817589 stripped
 Transform:
   m_PrefabParentObject: {fileID: 412550, guid: e05b8bc8e4742d4469cd14bb82cfff66, type: 2}
@@ -24304,6 +24502,30 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ffb55872f8dba944a60ff554332c4a1, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1573200469 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 155780, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
+  m_PrefabInternal: {fileID: 639251059}
+--- !u!114 &1573200474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1573200469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e3c4552e514b446928ba3ac9f8ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxdistance4: 3
+  player4: {fileID: 1768119366}
+  titletuto4: Core File "mot de passe"
+  texttuto4: "Bien, maintenant que vous avez le mot de passe, il va falloir d\xE9v\xE9rouiller
+    le core file. Si vous avez oubli\xE9 le mot de passe, il est pr\xE9sent en haut
+    de l'\xE9cran."
+  tutovalue4: {fileID: 0}
+  tutovaluetitle4: {fileID: 0}
+  tutoscreen4: {fileID: 0}
 --- !u!4 &1574234304 stripped
 Transform:
   m_PrefabParentObject: {fileID: 481002, guid: 8ffb55872f8dba944a60ff554332c4a1, type: 2}
@@ -25198,6 +25420,18 @@ Prefab:
     - target: {fileID: 498358, guid: 7aa874c53f26c2044be1e49fc6707bef, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11476532, guid: 7aa874c53f26c2044be1e49fc6707bef, type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11476532, guid: 7aa874c53f26c2044be1e49fc6707bef, type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 11476532, guid: 7aa874c53f26c2044be1e49fc6707bef, type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7aa874c53f26c2044be1e49fc6707bef, type: 2}

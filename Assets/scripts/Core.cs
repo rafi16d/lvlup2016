@@ -99,11 +99,11 @@ public class Core : MonoBehaviour {
         popup.SetActive(false);
         password.text = "";
         Core.upgradeState();
-        /*
-                if (Core.getState() == 1) {
-                    popupAvast.SetActive(true);
 
-                }*/
+        if (Core.getState() == 1) {
+            popupAvast.SetActive(true);
+
+        }
 
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = this.coreDestruction;
@@ -189,7 +189,7 @@ public class Core : MonoBehaviour {
         return Core.countState;
     }
 
-    public static void resetState(){
+    public static void resetState() {
         Core.countState = 0;
         Environment.globalStateReset();
     }

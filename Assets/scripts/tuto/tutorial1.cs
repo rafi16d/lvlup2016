@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class tutorial : MonoBehaviour {
+public class tutorial1 : MonoBehaviour {
 
     public float maxdistance = 3;
 
@@ -43,10 +43,11 @@ public class tutorial : MonoBehaviour {
     IEnumerator PauseCoroutine() {
         while (true) {
             if (Input.GetButton("Submit")) {
-
-                Time.timeScale = 1;
-                tutoscreen.SetActive(false);
-                AlreadyView = true;
+                if (distance < maxdistance) {
+                    Time.timeScale = 1;
+                    tutoscreen.SetActive(false);
+                    AlreadyView = true;
+                }
             }
             yield return null;
         }
