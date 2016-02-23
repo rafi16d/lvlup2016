@@ -10973,7 +10973,7 @@ Prefab:
       objectReference: {fileID: 318621286}
     - target: {fileID: 11497474, guid: 68afb11c000937943ad82418a35a4653, type: 2}
       propertyPath: nextlvl
-      value: credits
+      value: lvl6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68afb11c000937943ad82418a35a4653, type: 2}

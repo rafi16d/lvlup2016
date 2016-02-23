@@ -8602,6 +8602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happyImage: {fileID: 0}
   DarkImage: []
   MissingImage: []
   forceMode: 0
@@ -21780,7 +21781,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!4 &1558980905 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
   m_PrefabInternal: {fileID: 1558980904}
 --- !u!1001 &1559288758
 Prefab:
@@ -24446,7 +24447,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!4 &1724469892 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 444894, guid: d3bf1eb3edb4fab4c84d02d3a4dd64ac, type: 2}
   m_PrefabInternal: {fileID: 1724469891}
 --- !u!1001 &1726034633
 Prefab:
