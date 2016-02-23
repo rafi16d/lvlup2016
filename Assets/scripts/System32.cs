@@ -22,12 +22,14 @@ public class System32 : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate() {
         if (Input.anyKeyDown) {
+            if (isBlueScreen) {
+                if (Input.GetKey("escape"))
+                    SceneManager.LoadScene("MenuPrincipal");
 
-            if (Input.GetKey("escape"))
-                Application.Quit();
-
-            //Load next lvl
-            // SceneManager.LoadScene(nextlvl);
+                //Load next lvl
+                if (isBlueScreen)
+                    SceneManager.LoadScene(nextlvl);
+            }
         }
 
     }
@@ -36,9 +38,11 @@ public class System32 : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D coll) {
         if (coll.gameObject.tag == "Player") {
             userinterface.SetActive(false);
+            Core.resetState();
+            GameObject.Find("_Manager").SendMessage("stopMusic");
             GameObject.Find("Player").SendMessage("stopSound");
             GameObject.Find("Player").SendMessage("sleepPlayer", Mathf.Infinity);
-            GameObject.Find("_Manager").SendMessage("upgradeMusic");
+            //GameObject.Find("_Manager").SendMessage("upgradeMusic");
             AudioSource audio = GetComponent<AudioSource>();
             audio.Play();
 

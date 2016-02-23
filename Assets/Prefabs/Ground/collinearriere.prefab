@@ -40,13 +40,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HappyImage: {fileID: 21300000, guid: eb4b1c34d4499c4469eb1810c953d81d, type: 3}
+  happyImage: {fileID: 21300000, guid: eb4b1c34d4499c4469eb1810c953d81d, type: 3}
   DarkImage:
   - {fileID: 21300000, guid: 8f38d0ed87d0af143b760454de47549c, type: 3}
   - {fileID: 21300000, guid: edf1015fd076b9844b502b0491c0d79b, type: 3}
   MissingImage:
   - {fileID: 21300000, guid: a0a3f364bb73b814cb8e1abd2a84bcbd, type: 3}
   - {fileID: 21300000, guid: 045353bc3f656444f8fedbd46e5bd6bc, type: 3}
+  forceMode: 0
+  WorldManager: 0
 --- !u!212 &21254548
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -92,6 +94,11 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: happyImage
+      value: 
+      objectReference: {fileID: 21300000, guid: eb4b1c34d4499c4469eb1810c953d81d,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 165798}

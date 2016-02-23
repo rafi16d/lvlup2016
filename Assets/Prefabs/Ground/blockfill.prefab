@@ -55,6 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 341f021c4f784f94a8311f845a47bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happyImage: {fileID: 21300000, guid: e1f909b6c31641546bab141de7fc54f3, type: 3}
   DarkImage:
   - {fileID: 21300000, guid: c03902f16545a9c4688067b7dc288eaf, type: 3}
   - {fileID: 21300000, guid: 57f118f880783724dbc00bac02a733fd, type: 3}
@@ -99,7 +100,12 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: happyImage
+      value: 
+      objectReference: {fileID: 21300000, guid: e1f909b6c31641546bab141de7fc54f3,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 102360}
