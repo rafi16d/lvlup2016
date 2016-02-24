@@ -115,7 +115,7 @@ public class PlayerMovement : MonoBehaviour {
             // Time.timeScale = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButton("Fire3")) {
             pauseScreen.SetActive(true);
             Time.timeScale = 0f;
         }

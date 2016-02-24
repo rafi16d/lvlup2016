@@ -23,9 +23,9 @@ public class System32 : MonoBehaviour {
     void FixedUpdate() {
         if (Input.anyKeyDown) {
             if (isBlueScreen) {
-                if (Input.GetKey("escape"))
+                if (Input.GetKey("escape") || Input.GetButton("Fire3")) {
                     SceneManager.LoadScene("MenuPrincipal");
-
+                }
                 //Load next lvl
                 if (isBlueScreen)
                     SceneManager.LoadScene(nextlvl);
