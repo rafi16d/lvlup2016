@@ -74,6 +74,10 @@ public class Core : MonoBehaviour {
 
         btnClose.onClick.AddListener(cancel);
         btnCancel.onClick.AddListener(cancel);
+
+        if (Input.GetButton("Fire2")) {
+            cancel();
+        }
     }
 
     void passwordEnter() {
@@ -155,7 +159,7 @@ public class Core : MonoBehaviour {
     }
 
     IEnumerator Wait() {
-        password.text = "Copyright Flopy.ch";
+        password.text = "lvlupgamejam";
         yield return new WaitForSeconds(0.7f);
         passwordCorrect();
     }

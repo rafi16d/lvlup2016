@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using System;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
@@ -76,6 +77,8 @@ public class PlayerMovement : MonoBehaviour {
     private bool isRunningSoundPlaying = false;
 
     void Start() {
+        StartCoroutine(PauseCoroutine());
+
         Time.timeScale = 1.0f;
         this.startPos = this.transform.position;
         this.playerInput.update();
@@ -115,7 +118,7 @@ public class PlayerMovement : MonoBehaviour {
             // Time.timeScale = 0f;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButton("Fire3")) {
             pauseScreen.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -126,6 +129,16 @@ public class PlayerMovement : MonoBehaviour {
         this.rb2d.velocity = new Vector2(this.frameMovement.x, this.rb2d.velocity.y);
     }
 
+    IEnumerator PauseCoroutine() {
+        while (true) {
+
+            if (Input.GetButtonDown("Jump")) {
+                pauseScreen.SetActive(false);
+                Time.timeScale = 1.0f; // Le temps reprend
+            }
+            yield return null;
+        }
+    }
 
 
     void checkMovement() {
@@ -497,12 +510,12 @@ public struct PlayerInput {
     //----------------------------
     public bool jump {
         get {
-            return this.rawY == 1 || Input.GetKeyDown(KeyCode.Space);
+            return this.rawY == 1 || Input.GetButton("Jump");
         }
     }
     public bool attack {
         get {
-            return Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.E);
+            return Input.GetMouseButtonDown(0) || Input.GetButton("Fire1");
         }
     }
 
@@ -583,3 +596,5 @@ public struct PlayerInput {
         return !this.actionRight && this.rawX == 1;
     }
 }
+
+
