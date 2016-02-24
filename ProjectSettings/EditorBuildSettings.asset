@@ -18,6 +18,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene/lvl/lvl4.unity
   - enabled: 1
+    path: Assets/scene/lvl/lvl5.unity
+  - enabled: 1
+    path: Assets/scene/lvl/lvl6.unity
+  - enabled: 1
+    path: Assets/scene/lvl/lvl7.unity
+  - enabled: 1
+    path: Assets/scene/lvl/lvl8.unity
+  - enabled: 1
+    path: Assets/scene/lvl/lvl9.unity
+  - enabled: 1
     path: Assets/scene/gameover.unity
   - enabled: 1
     path: Assets/scene/credits.unity
