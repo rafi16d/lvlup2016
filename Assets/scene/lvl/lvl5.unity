@@ -5709,6 +5709,10 @@ Prefab:
       propertyPath: popupAvast
       value: 
       objectReference: {fileID: 1263850276}
+    - target: {fileID: 11412276, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
+      propertyPath: passwordValue
+      value: unity
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
   m_IsPrefabParent: 0
@@ -17145,7 +17149,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11412276, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
       propertyPath: passwordValue
-      value: 42
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 11412276, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
       propertyPath: popupAvast
