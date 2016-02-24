@@ -497,12 +497,12 @@ public struct PlayerInput {
     //----------------------------
     public bool jump {
         get {
-            return this.rawY == 1 || Input.GetKeyDown(KeyCode.Space);
+            return this.rawY == 1 || Input.GetButton("Jump");
         }
     }
     public bool attack {
         get {
-            return Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.E);
+            return Input.GetMouseButtonDown(0) || Input.GetButton("Fire1");
         }
     }
 

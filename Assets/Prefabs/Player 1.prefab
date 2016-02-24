@@ -230,7 +230,6 @@ GameObject:
   - 4: {fileID: 406314}
   - 33: {fileID: 3365632}
   - 23: {fileID: 2330604}
-  - 114: {fileID: 11400822}
   m_Layer: 0
   m_Name: butt
   m_TagString: Untagged
@@ -1062,7 +1061,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.25376, y: -3.6890967, z: 0}
+  m_LocalPosition: {x: -35.65, y: -3.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 480236}
@@ -2048,7 +2047,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 144626}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3c8d89adbb617b844bbdb5e0d290d46d, type: 2}
+  m_Material: {fileID: 6200000, guid: a778be947dc84ab47bf8174ef571d4ba, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0.35}
@@ -2145,17 +2144,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11400822
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 126968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11447186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2172,7 +2160,7 @@ MonoBehaviour:
   JumpStrength: 6
   ControlEffectivenessAir: 1
   animator: {fileID: 9540074}
-  runningSound: {fileID: 0}
+  runningSound: {fileID: 8300000, guid: 13432e881352a6f428f159c40c2a4695, type: 3}
   WallFriction: 1
   WallJump: 0
   WallJumpStrength: {x: 5, y: 5}

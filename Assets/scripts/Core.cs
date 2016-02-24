@@ -74,6 +74,10 @@ public class Core : MonoBehaviour {
 
         btnClose.onClick.AddListener(cancel);
         btnCancel.onClick.AddListener(cancel);
+
+        if (Input.GetButton("Fire2")) {
+            cancel();
+        }
     }
 
     void passwordEnter() {

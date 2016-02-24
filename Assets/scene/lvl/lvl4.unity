@@ -5730,6 +5730,10 @@ Prefab:
       propertyPath: popupAvast
       value: 
       objectReference: {fileID: 1263850276}
+    - target: {fileID: 11412276, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
+      propertyPath: passwordValue
+      value: flopy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70c327c224dd5f847adb92c5040bae9c, type: 2}
   m_IsPrefabParent: 0
@@ -24310,15 +24314,15 @@ Transform:
   - {fileID: 817483920}
   - {fileID: 253360030}
   - {fileID: 90665553}
-  - {fileID: 298401784}
+  - {fileID: 1952500874}
   - {fileID: 2103853966}
   - {fileID: 1035198858}
-  - {fileID: 1011756431}
-  - {fileID: 1952500874}
+  - {fileID: 298401784}
+  - {fileID: 1523723714}
   - {fileID: 1067888357}
   - {fileID: 1913774099}
   - {fileID: 1759666261}
-  - {fileID: 1523723714}
+  - {fileID: 1011756431}
   - {fileID: 1436379602}
   - {fileID: 484119440}
   - {fileID: 1884376588}
