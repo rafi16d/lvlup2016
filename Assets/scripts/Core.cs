@@ -159,7 +159,7 @@ public class Core : MonoBehaviour {
     }
 
     IEnumerator Wait() {
-        password.text = "Copyright Flopy.ch";
+        password.text = "lvlupgamejam";
         yield return new WaitForSeconds(0.7f);
         passwordCorrect();
     }
