@@ -14934,54 +14934,18 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11499142, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_Text
-      value: Resume
-      objectReference: {fileID: 0}
     - target: {fileID: 11490718, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 89998208}
-    - target: {fileID: 11490718, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResumeButton
-      objectReference: {fileID: 0}
     - target: {fileID: 11446026, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 89998208}
-    - target: {fileID: 11446026, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 11485696, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_Text
-      value: Main Menu
-      objectReference: {fileID: 0}
     - target: {fileID: 11441764, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 89998208}
-    - target: {fileID: 11441764, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLevelButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 106940, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22464954, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22464954, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 892
-      objectReference: {fileID: 0}
-    - target: {fileID: 22464954, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 817
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 67e9aff9a5633944aa56343490f3678d, type: 2}
   m_IsPrefabParent: 0
